@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+:root{
+    --cor1:#155794;
+    --cor2:#38bb38;
+    --cor3:#dd2a2a;
+    --cor4:#d3d1d1; 
+
+    --font-titulo:titulo;
+}
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+
+    padding: 10px;
+    background: var(--cor1);
+    color:white;
+}
+.container{
+    /* background: var(--cor1); */
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.formulario{
+    margin-top: 35px;
+    /* background: yellow; */
+    width: 300px;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+input{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    color: black; 
+    background: var(--cor4); 
+    height: 40px; 
+    width: 300px;
+    text-align: center;
+
+}
+
+.botoes{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.btn{
+    background-color: #155794;
+    height: 30px;
+    width: 85px;
+    border: none;
+    border-radius: 5px;
+}

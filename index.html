@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APP Circulo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Área do Circulo</h1>
+    <div class="container">
+        <form name="frmCirculo" class="formulario">
+            <p><label for="inputRaio"> Digite um número</label>
+                <input type="number" name="inputRaio" placeholder="Digite um número:">
+            </p>
+            <p><label for="inputResultadomt">Medida em Metros</label>
+                <input type="number" name="inputResultadomt" placeholder="Área do Circulo em Metros" disabled>
+            </p>
+            <p><label for="inputResultadokm">Medida em Quilômetros</label>
+                <input type="number" name="inputResultadokm" placeholder="Área do Circulo em Quilômetros" disabled>
+            </p>
+            
+            <div class="botoes">
+                <input type="button" class="btn" id="bt1" value="Calular" onclick="calcular()">
+                <input type="button" class="btn" id="bt2" value="converter" onclick="converter()">
+                <input type="reset" class="btn" id="bt3" name="inputResetar" value="Limpar">
+            </div>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
