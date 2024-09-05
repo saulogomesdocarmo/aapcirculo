@@ -1,7 +1,4 @@
 @charset "UTF-8";
-
-
-
 *{
     margin: 0;
     padding: 0;
@@ -12,7 +9,7 @@
     --cor2:#38bb38;
     --cor3:#dd2a2a;
     --cor4:#d3d1d1; 
-
+    --cor5:#858585; 
     --font-titulo:titulo;
 }
 h1{
@@ -60,6 +57,12 @@ input{
 
 }
 
+.leitura{
+    background:var(--cor5);
+    color: white;
+    /* width: 150px; */
+}
+
 .botoes{
     margin-top: 10px;
     display: flex;
@@ -69,16 +72,19 @@ input{
 
 .btn{
     height: 30px;
-    width: 85px;
+    width: 95px;
     border: none;
     border-radius: 5px;
 }
+
 #bt1{
     background:var(--cor2);
     color: white;
 }
+
 #bt2{
-    
+    background: var(--cor1);
+    color: white;
 }
 #bt3{
     background: var(--cor3); 

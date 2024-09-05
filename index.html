@@ -10,19 +10,22 @@
 </head>
 
 <body>
-    <h1>Área do Circulo</h1>
+    <h1>Área do Círculo</h1>
     <div class="container">
         <form name="frmCirculo" class="formulario">
-            <p><label for="inputRaio"> Digite um número</label>
+            <p><label for="inputRaio">Raio do Círuclo</label>
                 <input type="number" name="inputRaio" placeholder="Digite um número:">
             </p>
-            <p><label for="inputResultadomt">Medida em Metros</label>
-                <input type="number" name="inputResultadomt" placeholder="Área do Circulo em Metros" disabled>
+            <p> 
+                <label for="inputResultadomt">Metros</label>
+                <input type="number" name="inputResultadomt" class="leitura" placeholder="Diâmetro em metros" disabled>
             </p>
-            <p><label for="inputResultadokm">Medida em Quilômetros</label>
-                <input type="number" name="inputResultadokm" placeholder="Área do Circulo em Quilômetros" disabled>
-            </p>
-            
+            <p> 
+                <label for="inputResultadokm">Centímetros</label>
+                <input type="number" name="inputResultadokm" class="leitura" placeholder="Diâmetro em  centímetros"
+                    disabled>
+            </p> 
+
             <div class="botoes">
                 <input type="button" class="btn" id="bt1" value="Calular" onclick="calcular()">
                 <input type="button" class="btn" id="bt2" value="converter" onclick="converter()">
